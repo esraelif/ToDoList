@@ -15,7 +15,7 @@ body {
 }
 
 .todoList {
-    border: 2px solid red;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -51,20 +51,20 @@ body {
 
 #dayName {
     position: absolute;
-    top: 20%;
-    left: 40%;
+    top: 10%;
+    left: 30%;
     font-family: 'Arimo', sans-serif;
     font-size: 2rem;
     z-index: 10;
+    color: #cc8e35;
 }
 
 .content {
-    border: 2px solid purple;
     padding: 10px 30px;
 }
 
 .content form {
-    // border: 2px solid blue;
+
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
@@ -80,10 +80,12 @@ body {
     font-size: 1.2rem;
     outline: none;
 
+
 }
 
 .content input-buttons a {
     text-decoration: none;
+
 }
 
 .content input-buttons i {
